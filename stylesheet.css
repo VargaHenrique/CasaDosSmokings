@@ -1,0 +1,196 @@
+/* PAG PRINCIPAL */
+      .divBusca{
+  background-color:#FFFFFF;
+  border:solid 2px #000000;
+  border-radius:10px;
+  width:300px;
+  height:32px;
+}
+
+.txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+
+.btnBusca{
+  border:none;
+  float:left;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:70px;
+  font-weight:bold;
+  background:#5F9EA0;
+}
+
+body{
+  background-color:#A0522D;
+  background-size: 100%;
+
+  /*Tipografia*/
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  
+}
+.divBusca img{
+  float:left;
+}
+h1,aside{
+  color: white;
+    text-align: center;
+    font-size: 32px;
+}
+p{
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: bold;
+  color:#FFFFFF;
+}
+.sobreNós{
+  text-align:center;
+}
+.numeros{
+  text-align:center;
+}
+div.gif1{
+    text-align: center;
+    box-sizing: border-box;
+}
+figcaption#desc{
+  margin-left: 25%;
+  margin-right: 25%;
+  color:#FFFFFF;
+}
+h3{
+  text-align: center;
+  color:#FFFFFF;  
+}
+figcaption#desc{
+  text-align: center;
+}
+div.img3{
+  text-align:center;
+}
+#button{
+  text-align: center;
+  color: var(--cor-secundaria);
+  border:none;
+  border-radius: 10px;
+  margin:14px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s color 0.3s, box-shadow 0,3s;
+  
+}
+.button:hover{
+  background-color: #E0FFFF;
+  color: var(--cor-secundaria);
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+.butao{
+  margin: 0px;
+  font-size: 16px; 
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px; 
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+
+  font-family:'Times New Roman', Times, serif;
+}
+
+.projects1{
+  text-align: center;
+  display: flex;
+  justify-items: start;
+  margin-left: 30%;
+  gap: 10px;
+}
+
+.projects2{
+  text-align: center;
+  display: flex;
+  justify-items: start;
+  margin-left: 34%;
+  gap: 10px;
+}
+
+/* SOBRE NÓS*/
+
+p{
+    text-align: center; 
+}
+div.div50cent{
+    text-align: center; 
+}
+
+/*Contatos*/
+
+/*Primeiroterno*/
+div.terno1{
+  text-align: center;
+}
+div.terno2{
+  text-align:center;
+}
+div.terno3{
+  text-align: center;
+}
+div.terno4{
+  text-align: center; 
+}
+div.terno5{
+  text-align: center; 
+  
+}
+
+/*Tipografia*/
+.highlight {
+  font-weight: bold;
+  color: #FFFF00;
+}
+
+/*Setores avançados*/
+.list{
+  margin-left: 250px;
+  margin-right: 300px;
+}
+
+.list li:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+.container > p {
+  font-weight: bold;
+}
+
+
+/*Pseudo-elementos e Pseudo-classes*/
+.box {
+  transform: rotate(45deg);
+  width: 30%;
+  padding: 10px;
+  margin: 10px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+}
+/*Layout responsivel*/
+@media screen and (max-width: 768px) {
+  .box {
+    width: 45%;
+    
+  }
+
+}
+@media screen and (max-width: 480px) {
+  .box {
+    width: 100%;
+  }
+}
+
