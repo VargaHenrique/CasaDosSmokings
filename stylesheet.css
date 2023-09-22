@@ -37,6 +37,7 @@ body{
   line-height: 1.6;
   
 }
+
 .divBusca img{
   float:left;
 }
@@ -180,11 +181,14 @@ div.terno5{
   color: white;
   text-align: center;
 }
-/*Layout responsivel*/
+/*Layout responsivo*/
 @media screen and (max-width: 768px) {
   .box {
     width: 45%;
     
+  }
+  img{
+    width: 100%;
   }
 
 }
