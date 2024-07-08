@@ -1,5 +1,5 @@
-/* PAG PRINCIPAL */
-      .divBusca{
+
+.divBusca{
   background-color:#FFFFFF;
   border:solid 2px #000000;
   border-radius:10px;
@@ -27,167 +27,118 @@
   background:#5F9EA0;
 }
 
-body{
-  /*background-color A0522D*/
-  background-color:black;
+body {
+  background-color: rgb(0, 0, 0);
   background-size: 100%;
-
-  /*Tipografia*/
-  font-family:sans-serif;
+  font-family: sans-serif;
   font-size: 18px;
   line-height: 1.6;
-  
+  cursor: default;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
 }
 
-.divBusca img{
-  float:left;
+header {
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
 }
-h1,aside{
+
+#CDSLOGO img {
+  max-width: 100%;
+}
+
+header aside {
   color: red;
-    text-align: center;
-    font-size: 32px;
+  font-size: 32px;
+  margin-top: 10px;
 }
-p{
+
+p {
   font-size: 18px;
   line-height: 1.5;
   font-weight: bold;
-  color:#FFFFFF;
 }
-.sobreNós{
-  text-align:center;
-}
-.numeros{
-  text-align:center;
-}
-div.gif1{
-    text-align: center;
-    box-sizing: border-box;
-}
-figcaption#desc{
-  margin-left: 25%;
-  margin-right: 25%;
-  color:#FFFFFF;
-  font-size: medium;
-}
-h3{
+
+div.gif1 {
   text-align: center;
-  color:#FFFFFF;  
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-figcaption#desc{
+
+figcaption#desc {
+  margin: 0 25%;
+  font-size:larger;
   text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
-div.img3{
-  text-align:center;
-}
-#button{
+
+h3 {
   text-align: center;
-  color: var(--cor-secundaria);
-  border:none;
-  border-radius: 10px;
-  margin:14px;
-  font-weight: bold;
-  display: inline-block;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: background-color 0.3s color 0.3s, box-shadow 0,3s;
-  
+  margin-top: 30px;
 }
-.button:hover{
-  background-color: #787b7b;
-  color: var(--cor-secundaria);
-  box-shadow: 0px 0px 5px rgb(1, 1, 1);
+
+div#button {
+  text-align: center;
+  margin: 30px 5%;
 }
-.butao{
-  margin: 0px;
-  font-size: 16px; 
+
+.button, .butao {
+  margin: 10px 0;
+  font-size: 16px;
   border: 2px solid red;
   border-radius: 10px;
-  padding: 10px; 
-  box-shadow: 0px 0px 5px rgb(0, 0, 0);
-
-  font-family:'Times New Roman', Times, serif;
-}
-
-.projects1{
-  text-align: center;
-  display: flex;
-  justify-items: start;
-  margin-left: 30%;
-  gap: 10px;
-}
-
-.projects2{
-  text-align: center;
-  display: flex;
-  justify-items: start;
-  margin-left: 34%;
-  gap: 10px;
-}
-
-/* SOBRE NÓS*/
-
-p{
-    text-align: center; 
-}
-div.div50cent{
-    text-align: center; 
-}
-
-/*Contatos*/
-
-/*Primeiroterno*/
-div.terno1{
-  text-align: center;
-}
-div.terno2{
-  text-align:center;
-}
-div.terno3{
-  text-align: center;
-}
-div.terno4{
-  text-align: center; 
-}
-div.terno5{
-  text-align: center; 
-  
-}
-
-/*Tipografia*/
-.highlight {
-  font-weight: bold;
-  color: #FFFF00;
-}
-
-/*Setores avançados*/
-.list{
-  margin-left: 250px;
-  margin-right: 300px;
-}
-
-.list li:nth-child(odd) {
-  background-color: #f7f7f7;
-}
-.container > p {
-  font-weight: bold;
-}
-
-
-/*Pseudo-elementos e Pseudo-classes*/
-.box {
-  transform: rotate(45deg);
-  width: 30%;
   padding: 10px;
-  margin: 10px;
-  background-color: #007bff;
-  color: white;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+  cursor: pointer;
+}
+
+.button:hover, .butao:hover {
+  background-color: #787b7b;
+  color: #FFFFFF;
+  box-shadow: 0px 0px 5px rgb(1, 1, 1);
+}
+
+.projects1, .projects2 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+figcaption#desc {
   text-align: center;
 }
-/*Layout responsivo*/
+
+div.div50cent{
+  text-align: center;
+
+}
+
+.numeros{
+  text-align:center;
+  color: #fff;
+}
+
 
 @media screen and (max-width: 480px) {
-  .box {
-    width: 100%;
+  .divBusca {
+    width: 90%;
+  }
+
+  .projects1, .projects2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  figcaption#desc {
+    margin: 0 10%;
   }
 }
-
